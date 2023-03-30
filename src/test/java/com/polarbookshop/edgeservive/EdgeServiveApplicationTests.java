@@ -25,8 +25,4 @@ class EdgeServiveApplicationTests {
 				() -> redis.getMappedPort(REDIS_PORT));
 	}
 
-	@Test
-	void verifyThatSpringContextLoads() {
-	}
-
 }
